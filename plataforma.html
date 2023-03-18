@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabela de Média</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <header>
+            <div class="cabecalho-titulo">
+                <h1 class="titulo">Cálculo de notas</h1>
+            </div>
+        </header>
+        <section>
+            <ul id="erro">
+                <li></li>
+                <li></li>
+            </ul>
+            <form id="form">
+                <div id="form-info">
+                    <label for="nome">Nome: </label>
+                    <input id="form-nome" class="espaco" name="nome" type="text" placeholder="Informe o nome do aluno">
+                </div>
+                <div id="form-info"> 
+                    <label for="nota1">Nota 1: </label>
+                    <input id="form-nota1" class="espaco espaco-secundario" name="nota1" type="number" placeholder="Digite a nota 1">
+                </div>
+                <div id="form-info">
+                    <label for="nota2">Nota 2: </label>
+                    <input id="form-nota2" class="espaco espaco-secundario" name="nota2" type="number" placeholder="Digite a nota 2">
+                </div>
+                <div id="form-info">
+                    <label for="nota3">Nota 3: </label>
+                    <input id="form-nota3" class="espaco espaco-secundario" name="nota3" type="number" placeholder="Digite a nota 3">
+                </div>
+                <div id="form-info">
+                    <label for="nota4 ">Nota 4: </label>
+                    <input id="form-nota4" class="espaco espaco-secundario" name="nota4" type="number" placeholder="Digite a nota 4">
+                </div>
+            </form>
+            <button id="Adcionar-aluno">ADCIONAR</button>
+        </section>
+        <main>
+            <h2>TABELA DAS NOTAS DOS ALUNOS</h2>
+            <section class="caixa-principal">
+                <table>
+                    <thead class="cabecalho-tabela">
+                        <tr>
+                            <th class="cabecalho cabecalho-nome">Nome</th>
+                            <th class="cabecalho cabecalho-nota1">Nota 1</th>
+                            <th class="cabecalho cabecalho-nota2">Nota 2</th>
+                            <th class="cabecalho cabecalho-nota3">Nota 3</th>
+                            <th class="cabecalho cabecalho-nota4">Nota 4</th>
+                            <th class="cabecalho cabecalho-media">Média</th>
+                            <th class="cabecalho cabecalho-situacao">Situação</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tabela">
+                        <tr class="linha">
+                            <td class="nome">EXEMPLO</td>
+                            <td class="nota1">9</td>
+                            <td class="nota2">8</td>
+                            <td class="nota3">8</td>
+                            <td class="nota4">7</td>
+                            <td class="media">8.00</td>
+                            <td class="situacao">APR</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <script src="tabela.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

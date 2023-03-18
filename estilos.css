@@ -1,0 +1,141 @@
+header {
+    border: 10px solid;
+    width: auto;
+    margin: 0 0;
+    background-color: cyan;
+
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color:white;
+    height: 100vh;
+}
+
+.cabecalho-titulo {
+    display:inline-flex;
+    margin: 0 20%;
+    font-size: 35px;
+    text-align: left;
+    padding: 0.4em 0;
+    width: auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 0.5em 20%;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    margin: 0 20%;
+    table-layout:fixed;
+}
+
+.caixa-principal {
+    text-align: center;
+    display:flex;
+    height: 100%;
+    width: auto;
+
+}
+
+tr {
+    text-align: center;
+    align-items: center;
+}
+
+th, td {
+    text-align:center;
+    border: 1px solid black;
+    padding: 0.7em;
+}
+
+td {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+th {
+    font-weight: bolder;
+    background-color: gray;
+    color: white;
+}
+
+label {
+    display: inline-block;
+    padding: 0.5em;
+    align-self:flex-end;
+}
+
+input {
+    border: 1px solid;
+    padding: 1em 0;
+    height: 2em;
+    width: 100%;
+}
+
+form {
+    width: auto;
+    align-self:flex-end;
+}
+
+#form {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    gap: 25px;
+    height: 100%;
+    width: auto;
+    margin: 1em 20%;
+}
+
+.espaco {
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    padding: 0.1em 0 0 0.4em;
+}
+
+button {
+    margin: 0 20%;
+    width: auto;
+    border: 1.4px solid;
+    height: 100%;
+    font-size:12px;
+    font-weight: 600;
+    padding: 0.6em 2em;
+    color: white;
+    background-color: blue;
+}
+
+button:active {
+    background-color: red;
+}
+
+.aluno-invalido {
+    background-color: red;
+}
+
+.recuperacao {
+    background-color: yellow;
+    text-align: center;
+}
+
+.reprovado {
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+
+.aprovado {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+#erro {
+    margin: 1% 20% 0 20%;
+    color: red;
+}
